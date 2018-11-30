@@ -112,7 +112,7 @@ try:
                                                                             pass
                                                                         gpio.output(COL[n],1)
 
-                                                                        a=df[RoomNumber][1]
+                                                                        a='+91' + str(df[RoomNumber][1])
                                                                         
                                                                         message = client.api.account.messages.create(
                                                                             to = a,
